@@ -41,9 +41,6 @@
     "likes_count": {
       "type": "string"
     },
-    "table_of_content": {
-      "type": "blocks"
-    },
     "slug": {
       "type": "string"
     }
