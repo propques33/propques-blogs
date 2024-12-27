@@ -400,6 +400,7 @@ export interface ApiArticleArticle extends Struct.CollectionTypeSchema {
     published: Schema.Attribute.Date;
     publishedAt: Schema.Attribute.DateTime;
     reading_time: Schema.Attribute.String;
+    slug: Schema.Attribute.String;
     table_of_content: Schema.Attribute.Blocks;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
